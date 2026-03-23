@@ -4,3 +4,6 @@
 ```
 ショートカットはctrl + alt + N
 ```
+
+# 参考サイト
+https://www.ruby-lang.org/ja/documentation/quickstart/
