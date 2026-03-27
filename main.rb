@@ -29,3 +29,8 @@ puts 2**3
     # # pochi = Hello.new("ぽち", 3)
     # # pochi.info
 
+# ゼロからわかるRuby入門
+#文字列を数値に変換する
+moji= "123"
+moji_int = moji.to_i
+puts moji_int + 100
