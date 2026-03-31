@@ -10,9 +10,16 @@ class Chapter2
      a= "abc"
      b= "def"
      puts a.to_i + b.to_i
+
+     # 条件式
+     wallet = 1000
+     puts wallet >= 500
+
+     # 偶数か判断するメソッド？があるらしい
+     puts 2.even?
   end
 end
-
+  
 
 # メモ
 =begin
