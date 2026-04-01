@@ -17,6 +17,19 @@ class Chapter2
 
      # 偶数か判断するメソッド？があるらしい
      puts 2.even?
+
+     # 後置きif
+     wallet = 1000
+     puts "お金が足りません" if wallet < 500
+     puts "お金があります" if wallet >= 500
+
+     # unlessはifの逆
+     wallet = 1000
+     unless wallet == 1000
+        puts "money is gone"
+     else
+        puts "money is exists"
+     end
   end
 end
   
