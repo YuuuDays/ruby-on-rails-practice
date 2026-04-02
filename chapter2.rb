@@ -30,6 +30,29 @@ class Chapter2
      else
         puts "money is exists"
      end
+
+     # casebun
+     order = "コーヒー"
+     case order
+     when "コーヒー"
+        puts "コーヒーを注文しました"
+     when "紅茶"
+        puts "紅茶を注文しました"
+     else
+        puts "その商品は扱っていません"
+     end
+
+     # 繰り返し timesメソッド
+     3.times do
+        puts "Hello"
+     end
+
+     # 繰り返し
+     bullbeery = 3
+     while bullbeery > 0
+        puts "お金があります"
+        bullbeery -= 1
+     end
   end
 end
   
