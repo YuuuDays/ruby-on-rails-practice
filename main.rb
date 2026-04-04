@@ -1,6 +1,7 @@
 require_relative 'hello'
 require_relative 'fizzBuzz'
 require_relative 'chapter2'
+require_relative 'chapter4'
 
 # これでコマンドライン引数を受け取れるらしい(こっちがInteger型?)
 # n = ARGV[0].to_i
@@ -26,3 +27,4 @@ puts 2**3
 # end
 
 Chapter2.run
+Chapter4.run
