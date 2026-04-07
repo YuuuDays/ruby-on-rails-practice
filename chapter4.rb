@@ -12,5 +12,11 @@ def self.run
     # 配列の要素を取り出す
     puts array[0]
     puts array[1]
+    
+    #配列名は複数形にする
+    drinks = ["コーヒー", "紅茶", "ジュース"]
+    puts drinks[-1] # これは末尾から表示
+    puts drinks[100] #ゼロ番地参照->nilになる。null pointerexceptionのようなエラーは発生しないのは凄いなぁ
+    
   end
 end
