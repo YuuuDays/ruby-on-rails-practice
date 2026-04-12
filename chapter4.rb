@@ -18,5 +18,8 @@ def self.run
     puts drinks[-1] # これは末尾から表示
     puts drinks[100] #ゼロ番地参照->nilになる。null pointerexceptionのようなエラーは発生しないのは凄いなぁ
     
+    # 配列の要素を変更する
+    drinks[0] = "コーラ"
+    puts drinks
   end
 end
