@@ -21,5 +21,10 @@ def self.run
     # 配列の要素を変更する
     drinks[0] = "コーラ"
     puts drinks
+
+    # 配列の要素を追加する
+    drinks << "水"
+    puts drinks
+    
   end
 end
