@@ -25,6 +25,8 @@ def self.run
     # 配列の要素を追加する
     drinks << "水"
     puts drinks
-    
+
+    # 配列の要素を削除する
+    drinks.delete("ジュース")
   end
 end
