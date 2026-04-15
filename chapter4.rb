@@ -28,5 +28,8 @@ def self.run
 
     # 配列の要素を削除する
     drinks.delete("ジュース")
+
+    # 配列の要素数を調べる
+    puts drinks.length
   end
 end
