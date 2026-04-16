@@ -31,5 +31,10 @@ def self.run
 
     # 配列の要素数を調べる
     puts drinks.length
+
+    # 配列の要素を繰り返し処理する
+    drinks.each do |drink|
+        puts drink
+    end
   end
 end
