@@ -38,6 +38,10 @@ def self.run
 
     end
 
+    # 配列の要素を繰り返し処理する（インデックスも一緒に）
+    drinks.each_with_index do |drink, index|
+        puts "#{index}: #{drink}"
+    end
     
   end
 end
