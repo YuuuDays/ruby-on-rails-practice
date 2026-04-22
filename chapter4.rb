@@ -43,5 +43,10 @@ def self.run
         puts "#{index}: #{drink}"
     end
     
+    # for文
+    for i in 0..9
+        puts "hellow"
+    end
+
   end
 end
