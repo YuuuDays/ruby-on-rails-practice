@@ -48,5 +48,8 @@ def self.run
         puts "hellow"
     end
 
+    10.times do |i|
+        puts "hello"
+    end
   end
 end
