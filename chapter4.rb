@@ -51,5 +51,10 @@ def self.run
     10.times do |i|
         puts "hello"
     end
+
+    # 他のやり方
+    10.times do
+        puts "hello!!!!!!!!!"
+    end 
   end
 end
