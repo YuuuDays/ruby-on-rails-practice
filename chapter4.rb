@@ -45,7 +45,7 @@ def self.run
     
     # for文
     for i in 0..9
-        puts "hellow"
+        puts "hello"
     end
 
     10.times do |i|
@@ -56,5 +56,8 @@ def self.run
     10.times do
         puts "hello!!!!!!!!!"
     end 
+
+    # 別の実装
+
   end
 end
