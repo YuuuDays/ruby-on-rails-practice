@@ -54,7 +54,7 @@ def self.run
 
     # 他のやり方
     10.times do
-        puts "hello!!!!!!!!!"
+        puts "hello!!"
     end 
 
     # 別の実装
