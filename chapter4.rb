@@ -18,46 +18,6 @@ def self.run
     puts drinks[-1] # これは末尾から表示
     puts drinks[100] #ゼロ番地参照->nilになる。null pointerexceptionのようなエラーは発生しないのは凄いなぁ
     
-    # 配列の要素を変更する
-    drinks[0] = "コーラ"
-    puts drinks
-
-    # 配列の要素を追加する
-    drinks << "水"
-    puts drinks
-
-    # 配列の要素を削除する
-    drinks.delete("ジュース")
-
-    # 配列の要素数を調べる
-    puts drinks.length
-
-    # 配列の要素を繰り返し処理する
-    drinks.each do |drink|
-        puts drink
-
-    end
-
-    # 配列の要素を繰り返し処理する（インデックスも一緒に）
-    drinks.each_with_index do |drink, index|
-        puts "#{index}: #{drink}"
-    end
-    
-    # for文
-    for i in 0..9
-        puts "hello"
-    end
-
-    10.times do |i|
-        puts "hello"
-    end
-
-    # 他のやり方
-    10.times do
-        puts "hello!"
-    end 
-
-    # 別の実装
 
   end
 end
