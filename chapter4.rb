@@ -17,7 +17,6 @@ def self.run
     drinks = ["コーヒー", "紅茶", "ジュース"]
     puts drinks[-1] # これは末尾から表示
     puts drinks[100] #ゼロ番地参照->nilになる。null pointerexceptionのようなエラーは発生しないのは凄いなぁ
-    
 
   end
 end
