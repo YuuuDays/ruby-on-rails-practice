@@ -18,5 +18,12 @@ def self.run
     puts drinks[-1] # これは末尾から表示
     puts drinks[100] #ゼロ番地参照->nilになる。null pointerexceptionのようなエラーは発生しないのは凄いなぁ
 
+    puts "------------------ハッシュ------------------"
+    #ハッシュ
+    hash = {"name":"太郎", "age": 20, "is_student": true}
+    puts hash
+    puts hash["name"]
+    puts hash["age"]
+    puts hash["is_student"]
   end
 end
